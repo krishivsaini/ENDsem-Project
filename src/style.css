@@ -48,8 +48,8 @@ body {
 .hero h2 {
 
     font-family: 'DotGothic16', sans-serif;
-    font-size: 3rem; /* Adjust as needed */
-    color: #333; /* Customize the color if necessary */
+    font-size: 3rem; 
+    color: #333;  
     margin-bottom: 20px;
     line-height: 1.4;
 }
@@ -74,13 +74,19 @@ body {
     margin-top: 20px;
 }
 
-.project-card {
+/* .project-card {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     text-align: center;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} */
+.project-card {
+    background: #fff;
+    border-radius: 10px; 
+    padding: 15px;
+    
 }
 .project-card img{
     width: 100%;
