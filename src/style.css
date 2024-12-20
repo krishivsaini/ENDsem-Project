@@ -19,6 +19,7 @@ body {
     background: #f8f8f8;
     border-bottom: 1px solid #ccc;
     flex-wrap: wrap;
+    font-family: "DotGothic16",sans-serif;
 }
 
 .navbar ul {
