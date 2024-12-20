@@ -379,6 +379,12 @@ p {
     .form-row {
         flex-direction: column;
     }
+    .aligned-section{
+        align-items: center;
+    }
+    .project-details h4{
+        text-align: center;
+    }
 
     .form-row input {
         width: 100%;
@@ -386,16 +392,19 @@ p {
     .footer-content {
         flex-direction: column; 
         align-items: center;
-      }
+    }
     
-      p {
+    p {
         margin-bottom: 10px; 
         text-align: center; 
-      }
+    }
     
-      .contact-button {
+    .contact-button {
         margin-top: 0; 
-      }
+
+    }
+
+
 
 
     
