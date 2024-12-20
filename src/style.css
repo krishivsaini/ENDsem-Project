@@ -117,7 +117,7 @@ body {
     font-family: 'DotGothic16', sans-serif;
 }
 
-/* Testimonial Grid */
+
 .testimonial-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -164,17 +164,23 @@ body {
 }
 
 
-.dedication {
+
+.dedication-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.dedication-text {
     font-family: 'DotGothic16', sans-serif;
     text-align: center;
-    margin: 40px 20px;
-    padding: 20px;
-    font-size: 1.2rem;
+    font-size: 1.4rem; 
     line-height: 1.8;
-    color: #333;
-    background: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #000;
+    max-width: 700px;
+    margin: 0;
 }
 footer {
     font-family: "domine" , "sans-serif";
@@ -332,10 +338,8 @@ button:hover {
     .project-grid{
         grid-template-columns: repeat(1,minmax(200px, 1fr));
     }
-    .dedication {
-        margin: 20px 10px;
-        padding: 15px;
-        font-size: 1rem; 
+    .dedication-text {
+        font-size: 1rem;
     }
 
     footer {
