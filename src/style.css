@@ -324,6 +324,40 @@ body {
 .submit-btn:hover {
     background-color: #444;
 }
+footer {
+    border-top: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+  
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "DotGothic16",sans-serif;
+}
+  
+p {
+    margin: 0;
+}
+  
+.contact-button {
+    border: 1px solid black;
+    background: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+  
+.contact-button:hover {
+    background: #f0f0f0;
+}
+  
 @media (max-width: 768px) {
     .navbar ul {
         flex-direction: column;
@@ -349,6 +383,19 @@ body {
     .form-row input {
         width: 100%;
     }
+    .footer-content {
+        flex-direction: column; 
+        align-items: center;
+      }
+    
+      p {
+        margin-bottom: 10px; 
+        text-align: center; 
+      }
+    
+      .contact-button {
+        margin-top: 0; 
+      }
 
 
     
